@@ -59,3 +59,20 @@ h1, h2, h3, h4, h5, h6 {
     background-position: right;
     background-size: 300%;
 }
+
+#companyLogo{
+    background-color: black;
+    margin-top: 30vh;
+    opacity: 0.45;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#odinLogo{
+    width: 120px;
+    height: auto;
+    opacity: 1;
+}
