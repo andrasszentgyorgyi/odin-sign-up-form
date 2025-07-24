@@ -68,11 +68,37 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 #odinLogo{
     width: 120px;
     height: auto;
     opacity: 1;
+}
+
+#rightContainer{
+  width:100%;
+  height:100vh;
+}
+
+#formHeader{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#formContainer{
+  background-color: gainsboro;
+  height:500px;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textInput{
+  width: 60%;
+  margin: 5px 0px;
 }
