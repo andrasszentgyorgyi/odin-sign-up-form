@@ -18,33 +18,40 @@
         <div id="rightContainer">
             <p id="disclaimer">This is not a real online service! You know you need
                 something like this in your life to help you realize your deepest dreams.
-                Sign up <em>now</em> to get started. 
+                Sign up <em>now</em> to get started.
                 <br>
                 You <em>know</em> you want to.
             </p>
             <div id="formContainer">
+                <h2 id="formTitle">Let's do this!</h2>
                 <form>
-                    <h2 id="formTitle">Let's do this!</h2>
-                    <label for="firstName">FIRST NAME</label>
-                    <input class="textInput" id="firstName" type="text" required>
+                    <div id="formInternalContainerLeft">
+                        
+                        <label for="firstName">FIRST NAME</label>
+                        <input class="textInput" id="firstName" type="text" required>
 
-                    <label for="lastName">LAST NAME</label>
-                    <input class="textInput" id="lastName" type="text" required>
+                        <label for="userEmail">EMAIL</label>
+                        <input class="textInput" type="email" id="userEmail" required>
 
-                    <label for="userEmail">EMAIL</label>
-                    <input class="textInput" type="email" id="userEmail" required>
+                        <label for="password">PASSWORD</label>
+                        <input class="textInput" id="password" type="password" required>
 
-                    <label for="phoneNumber">PHONE NUMBER</label>
-                    <input type="number" class="textInput" id="phoneNumber" required>
 
-                    <label for="password">PASSWORD</label>
-                    <input class="textInput" id="password" type="password" required>
+                    </div>
+                    <div id="formInternalContainerRight">
+                        <label for="lastName">LAST NAME</label>
+                        <input class="textInput" id="lastName" type="text" required>
 
-                    <label for="confirmPassword">CONFIRM PASSWORD</label>
-                    <input type="password" class="textInput" id="confirmPassword" required>
-                    <button>Submit</button>
+                        <label for="phoneNumber">PHONE NUMBER</label>
+                        <input type="number" class="textInput" id="phoneNumber" required>
+
+                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <input type="password" class="textInput" id="confirmPassword" required>
+                    </div>
                 </form>
             </div>
+            <button type=submit id="submit">Submit</button>
+            <p id="alreadyRegistered">Already have an account? Log in</p>
         </div>
     </div>
 </body>
