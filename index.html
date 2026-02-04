@@ -24,7 +24,7 @@
             </p>
             <div id="formContainer">
                 <h2 id="formTitle">Let's do this!</h2>
-                <form>
+                <form action="#" method="post">
                     <div id="formInternalContainerLeft">
                         <label for="firstName">FIRST NAME</label>
                         <input class="textInput" id="firstName" type="text" required>
@@ -33,7 +33,7 @@
                         <input class="textInput" type="email" id="userEmail" required>
 
                         <label for="password">PASSWORD</label>
-                        <input class="textInput" id="password" type="password" required>
+                        <input class="textInput" id="password" type="password" required minlength="8">
 
 
                     </div>
@@ -45,12 +45,12 @@
                         <input type="number" class="textInput" id="phoneNumber" required>
 
                         <label for="confirmPassword">CONFIRM PASSWORD</label>
-                        <input type="password" class="textInput" id="confirmPassword" required>
+                        <input type="password" class="textInput" id="confirmPassword" required minlength="8">
                     </div>
                 </form>
             </div>
             <button type=submit id="submit">Create Account</button>
-            <p id="alreadyRegistered">Already have an account? Log in</p>
+            <p id="alreadyRegistered">Already have an account? <a href="url">Log in</a></p>
         </div>
     </div>
 </body>

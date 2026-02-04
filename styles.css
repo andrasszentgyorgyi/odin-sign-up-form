@@ -142,14 +142,27 @@ form{
 .textInput{
   width: 60%;
   margin: 5px 0px;
+  height: 25px;
   background-color: rgb(255, 255, 255);
   border:0px;
   border-radius: 5px;
   padding-left: 10px;
+  outline:none;
+}
+
+.textInput:valid {
+  border: 2px solid green;
+}
+
+.textInput:invalid {
+  border: 2px solid red;
+  box-shadow: 0 0 5px rgba(255, 0, 0, 0.2); /* faint red glow */
 }
 
 #alreadyRegistered{
-  padding-left:50px;
+  padding-left:51px;
+  padding-top:30px;
+  color:white;
 }
 
 #submit{
@@ -202,6 +215,10 @@ form{
   border-radius: 8px;
   box-shadow: 0px 2px 5px rgb(14, 46, 54);
   cursor:pointer;
+}
+
+a{
+  color:rgb(2, 59, 72);
 }
 
 
