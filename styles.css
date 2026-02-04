@@ -5,7 +5,7 @@
 /* 2. Remove default margin */
 * {
   margin: 0;
-
+  border: 1px solid red;
 }
 /* 3. Enable keyword animations */
 @media (prefers-reduced-motion: no-preference) {
@@ -128,7 +128,13 @@ form{
 #formInternalContainer{
   display:flex;
   flex-direction: column;
-  flex-wrap: wrap;
+}
+
+#formInternalContainerLeft{
+  width:100%;
+}
+#formInternalContainerRight{
+  width:100%;
 }
 
 .textInput{
@@ -144,3 +150,40 @@ form{
 #submit{
   margin-left:50px;
 }
+
+#firstName{
+  display:flex;
+  flex-direction: column;
+}
+
+#lastName{
+  display:flex;
+  flex-direction: column;
+}
+
+#userEmail{
+  display:flex;
+  flex-direction: column;
+}
+
+#password{
+  display:flex;
+  flex-direction: column;
+}
+
+#userEmail{
+  display:flex;
+  flex-direction: column;
+}
+
+#phoneNumber{
+  display:flex;
+  flex-direction: column;
+}
+
+#confirmPassword{
+  display:flex;
+  flex-direction: column;
+}
+
+
